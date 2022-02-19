@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 import "../../styles/learnMoreCharacter.css";
 
 
-export const learnMoreCharacter = () => {
+export const LearnMoreCharacters = () => {
   return (
   <div className="row g-0">
     <div className="col-md-4">
