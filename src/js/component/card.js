@@ -1,0 +1,25 @@
+import React from "react";
+import propTypes from "prop-types";
+
+export const Card = (props) => {
+    return(
+<div className="card">
+			<img src={props.cardImage} className="card-img-top" alt="..." />
+			<div className="card-body">
+				<h5 className="card-title">{props.cardTitle}</h5>
+				<p className="card-text">{props.cardText}</p>
+				<a href="#" className="btn btn-primary">
+					{props.cardBigButton}
+				</a>
+                <a href="#" className="btn btn-outline-warning mr-6">
+                <i class="far fa-heart"></i>
+				</a>
+			</div>
+		</div>);
+};
+Card.propTypes = {
+    cardTitle: propTypes.string,
+    cardText: propTypes.string,
+    cardBigButton: propTypes.string,
+    cardImage: propTypes.any
+};
