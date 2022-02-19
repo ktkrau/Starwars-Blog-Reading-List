@@ -16,11 +16,21 @@ import image12 from "../../img/planetas/Dagobah.jpg";
 import image13 from "../../img/planetas/Kashyyk.png";
 import image14 from "../../img/planetas/Bogano.jpg";
 import image15 from "../../img/planetas/Christophsis.jpg";
+import image16 from "../../img/vehiculos/1wingfighter.png";
+import image17 from "../../img/vehiculos/2coruscan.png";
+import image18 from "../../img/vehiculos/3alderaancruiser.png";
+import image19 from "../../img/vehiculos/4atdtwalker.png";
+import image20 from "../../img/vehiculos/5blackace.png";
+import image21 from "../../img/vehiculos/6bwingprototype.png";
+import image22 from "../../img/vehiculos/7jedistarfighter.png";
+import image23 from "../../img/vehiculos/8atwalker.png";
+
 import "../../styles/home.css";
 
 export const Home = () => {
 	return (
 		<div clasName="container">
+			
 			<div className="row">
 				<div className="col-2"></div>
 				<div className="col-8 titulo-personajes">
@@ -110,6 +120,7 @@ export const Home = () => {
 				<div className="col-md-2"></div>
 				
 			</div>
+			
 			<div className="row">
 				<div className="col-2"></div>
 				<div className="col-8 titulo-planetas">
@@ -193,6 +204,96 @@ export const Home = () => {
 						cardText="nteger risus lectus, convallis sed vulputate non, laoreet eu nunc. Vestibulum mollis dui sed quam malesuada."
 						cardBigButton="Learn more"
 						cardImage={image15}
+					/>
+
+				</div>
+				<div className="col-md-2"></div>
+				
+			</div>
+			
+			<div className="row">
+				<div className="col-2"></div>
+				<div className="col-8 titulo-vehiculos">
+					<h1>Vehicles</h1>
+				</div>
+				<div className="col-2"></div>
+			</div>
+			<div className="row">
+				<div className="col-md-2"></div>
+				<div className="col-md-2">
+					<Card
+						cardTitle="A-wing Fighter"
+						cardText="nteger risus lectus, convallis sed vulputate non, laoreet eu nunc. Vestibulum mollis dui sed quam malesuada."
+						cardBigButton="Learn more"
+						cardImage={image16}
+					/>
+
+				</div>
+				<div className="col-md-2">
+					<Card
+						cardTitle="AA-9 Coruscan Fighter"
+						cardText="nteger risus lectus, convallis sed vulputate non, laoreet eu nunc. Vestibulum mollis dui sed quam malesuada."
+						cardBigButton="Learn more"
+						cardImage={image17}
+					/>
+
+				</div>
+				<div className="col-md-2">
+					<Card
+						cardTitle="Alderaan Cruiser"
+						cardText="nteger risus lectus, convallis sed vulputate non, laoreet eu nunc. Vestibulum mollis dui sed quam malesuada."
+						cardBigButton="Learn more"
+						cardImage={image18}
+					/>
+
+				</div>
+				<div className="col-md-2">
+					<Card
+						cardTitle="AT-DP Walker"
+						cardText="nteger risus lectus, convallis sed vulputate non, laoreet eu nunc. Vestibulum mollis dui sed quam malesuada."
+						cardBigButton="Learn more"
+						cardImage={image19}
+					/>
+
+				</div>
+				<div className="col-md-2"></div>
+
+			</div>
+			<div className="row">
+			<div className="col-md-2"></div>
+				<div className="col-md-2">
+					<Card
+						cardTitle="Black Ace"
+						cardText="nteger risus lectus, convallis sed vulputate non, laoreet eu nunc. Vestibulum mollis dui sed quam malesuada."
+						cardBigButton="Learn more"
+						cardImage={image20}
+					/>
+
+				</div>
+				<div className="col-md-2">
+					<Card
+						cardTitle="B-wing Prototype"
+						cardText="nteger risus lectus, convallis sed vulputate non, laoreet eu nunc. Vestibulum mollis dui sed quam malesuada."
+						cardBigButton="Learn more"
+						cardImage={image21}
+					/>
+
+				</div>
+				<div className="col-md-2">
+					<Card
+						cardTitle="Eta-2 Jedi Starfighter"
+						cardText="nteger risus lectus, convallis sed vulputate non, laoreet eu nunc. Vestibulum mollis dui sed quam malesuada."
+						cardBigButton="Learn more"
+						cardImage={image22}
+					/>
+
+				</div>
+				<div className="col-md-2">
+					<Card
+						cardTitle="First Order AT-AT Walker"
+						cardText="nteger risus lectus, convallis sed vulputate non, laoreet eu nunc. Vestibulum mollis dui sed quam malesuada."
+						cardBigButton="Learn more"
+						cardImage={image23}
 					/>
 
 				</div>
