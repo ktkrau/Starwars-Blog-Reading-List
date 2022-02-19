@@ -1,3 +1,25 @@
 /* 
     General Styles
 */
+.col-md-2{
+    margin-top: 25px;
+}
+.btn-outline-warning{
+margin-left: 75px;
+}
+.card img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+.titulo-personajes{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+
+}
+.titulo-planetas{
+    margin-top: 40px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+
+}
