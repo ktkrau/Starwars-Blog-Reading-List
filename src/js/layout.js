@@ -8,7 +8,7 @@ import { Single } from "./views/single";
 import injectContext from "./store/appContext";
 
 import { Navbar } from "./component/navbar";
-import { LearnMoreCharacters } from "./views/learnMoreCharacter";
+import { Characters } from "./views/characters";
 import { Footer } from "./component/footer";
 
 
@@ -29,7 +29,7 @@ const Layout = () => {
 							<Home />
 						</Route>
 						<Route exact path="/Detail/characters">
-							<LearnMoreCharacters/>
+							<Characters/>
 						</Route>
 						<Route exact path="/demo">
 							<Demo />

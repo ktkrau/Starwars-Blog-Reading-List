@@ -7,7 +7,7 @@ import "../../styles/navbar.css";
 
 export const Navbar = (props) => {
   return (
-	  <nav className="navbar navbar-expand-lg navbar-light bg-light Light py-1 px-5">
+	  <nav className="navbar navbar-expand-lg navbar-light bg-light Light  px-5">
       <div className="container-fluid">
         <button
           className="navbar-toggler"
